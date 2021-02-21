@@ -1,7 +1,7 @@
 
 // Assignment code here
 var generatePassword = function() {
-  var specialCharacters = ["!","@", "#", "$", "%", "^", "&", "*", "(", ")"];
+  var specialCharacters = ["!","@", "#", "$", "%", "^", "&", "*", "(", ")", ",", ".", ";", ":", "'", "<", ">", "?", "-", "_", "+", "=", "/",  "}", "{", "]", "|", "~", "["];
   var lowercaseCharacters = "qwertyuiopasdfghjklzxcvbnm".split("");
   var uppercaseCharacters = "QWERTYUIOPASDFGHJKLZXCVBNM".split("");
   var numbersCharacters = "1234567890".split("");
